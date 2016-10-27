@@ -1,0 +1,311 @@
+body{
+background-color: #f8fafa;
+}
+nav{
+	width: 100%;
+	background-color: white;
+	display: inline-block;
+	position: relative;
+}
+.wrapper{
+	
+	background-color: #f8fafa;
+}
+#logo{
+	width: 80px;
+	height: 50px;
+	margin-left: 500px;
+	position: relative;
+}
+#pics{
+	width: 50px;
+	height: 50px;
+	float: right;
+	border-left: 1px solid #f8fafa;
+}
+#home{
+	width: 30px;
+	height: 30px;
+	background-color: white;
+	float: left;
+	border-right: 1px solid #f8fafa;
+	padding: 9px;
+}
+
+#list{
+	width: 30px;
+	height: 20px;
+	margin-left: -5px;
+	opacity: 1;
+}
+#app{
+	width: 30px;
+	height: 20px;
+	margin-right: 20px;
+}
+.row{
+	float: right;
+	margin-right: 30px;
+	margin-top: -35px;	
+}
+#p1{
+	margin-left: 380px;
+	color: #c8cbcd;
+}
+h4{
+	color: #62666a;
+}
+#ora{
+	
+}
+#p2{
+	color: #c2c3c6;
+}
+#link{
+	background-color: white;
+	border: 0px;
+	width: 100%;
+	height: 50px;
+}
+#link a{
+	color: #c2c3c6;
+}
+.sect1 a img{
+	height: 80px;
+	width: 60px;
+	transition: all .2s ease-in-out;
+	padding: 20px;
+	border: 5px solid #ffffff;
+	opacity: 100;
+	margin: 10px 10px 10px 10px;
+}
+
+.sect1 a img:hover{
+	transform: scale(1.2);
+}
+#special{
+	float: left;
+	width:	27%;
+	padding-left: 10px;
+}
+.sect2{
+	background-color: white;
+	border: 1px solid white;
+	text-align: center;
+}
+.sect1{
+	display: inline;
+	float: right;
+	width: 65%;
+}
+#sliced{
+	height: 100px;
+	width: 100px;
+	border: 2px solid #f8fafa;
+	border-radius: 100%;
+	margin-top: -40px;
+}
+#following{
+	border-radius: 20px;
+	height: 30px;
+	width: 120px;
+	background-color: #3daf2b;
+	border: 0px;
+	color: white;
+}
+.category1{
+	float: left;
+	border: 1px solid #c2c3c6;
+	width: 49.4%;
+	height: 70px;
+}
+.category2{
+	float: right;
+	border: 1px solid #c2c3c6;
+	width: 49.4%;
+	height: 70px;
+}
+#f1{
+	color: #c2c3c6;
+}
+#f2{
+	color: #c2c3c6;
+}
+
+a{
+	text-decoration: none;
+}
+.others div img{
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	border: 1px solid white;
+	border-radius: 100%;
+	margin: 12px;
+	margin-top: -3px;
+}
+.others div a{
+	width: 50%;
+	float: right;
+	margin-top: -20px;
+}
+.others div a p{
+	margin-top: -17px;
+	font-size: 12px;
+	color: #c2c3c6;
+}
+#third{
+	color: #c2c3c6;
+}
+#following:hover {
+    background-color: #0099cc;
+    cursor: hand;
+}
+@media only screen and (max-width: 500px){
+    /* For phone: */
+    body{
+    	background-color: red;
+    }
+    .sect2{
+    width: 100%;
+    }
+    #btn1 {
+    	width: 100%;
+    }
+    #btn2 {
+    	width: 100%;
+    } 
+    
+    .sect1 a img{
+    display: block;
+	height: 100px;
+	width: 250px;
+	margin-left: -100px;
+	border: 3px solid #ffffff;
+	opacity: 100;
+
+	}
+   .row{
+	float: right;
+	margin-right: 30px;
+	margin-top: -35px;	
+	}
+	#p1{
+	margin-left: 10px;
+	color: #c8cbcd;
+	}
+	#following{
+	border-radius: 20px;
+	height: 30px;
+	width: 90px;
+	background-color: #3daf2b;
+	border: 0px;
+	color: white;
+	}
+	#f1{
+	color: #c2c3c6;
+	font-size: 10px;
+	}
+	#f2{
+	color: #c2c3c6;
+	font-size: 10px;
+	}
+	nav{
+	background-color: white;
+	display: inline-block;
+	position: relative;
+	}
+	#logo{
+	width: 30px;
+	height: 15px;
+	margin-left: 100px;
+	padding-top: 5px;
+	position: relative;
+	}
+	#pics{
+		width: 30px;
+		height: 15px;
+		padding-top: 5px;
+		float: right;
+		border-left: 1px solid #f8fafa;
+	}
+	#home{
+		width: 10px;
+		height: 10px;
+		background-color: white;
+		border-right: 1px solid #f8fafa;
+		padding: 9px;
+	}
+	.sect2{
+	}
+	#special{
+	float: left;
+	width:	27%;
+	margin-left: -300px;
+	}
+}
+@media only screen and (min-width: 501px) and (max-width: 800px) {
+    /* For tablets: */
+    body{
+    	background-color: green;
+    }
+    #logo{
+	width: 40px;
+	height: 25px;
+	margin-left: 280px;
+	padding-top: 5px;
+	position: relative;
+	}
+	#pics{
+		width: 40px;
+		height: 25px;
+		padding-top: 5px;
+		float: right;
+		border-left: 1px solid #f8fafa;
+	}
+	#home{
+		width: 20px;
+		height: 20px;
+		background-color: white;
+		border-right: 1px solid #f8fafa;
+		padding: 9px;
+	}
+	#p1{
+	margin-left: 250px;
+	color: #c8cbcd;
+	}
+	#f1{
+	color: #c2c3c6;
+	font-size: 10px;
+	}
+	#f2{
+	color: #c2c3c6;
+	font-size: 10px;
+	}
+	.sect1{
+   	display: inline block;
+	float: right;
+	width: 10%;
+	margin-right: 120px;
+    }
+     .sect1 a img{
+    display: block;
+	height: 200px;
+	width: 250px;
+	margin-left: -120px;
+	border: 3px solid #ffffff;
+	opacity: 100;
+	}
+	#special{
+	float: left;
+	width:	35%;
+	}
+	.others div a{
+	width: 50%;
+	float: right;
+	margin-top: -45px;
+	}
+
+
+
+}
